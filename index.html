@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<title>Belet - Etkinlik Rehberiniz</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<link type="text/css" rel="stylesheet" href="colors/splash/splash-start.css"/>
+<link type="text/css" rel="stylesheet" href="css/idangerous.swiper.css"/>
+<link type="text/css" rel="stylesheet" href="css/swipebox.css" />
+<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css' />
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script src="js/jquery.validate.min.js" type="text/javascript"></script>
+	
+	
+	<style>
+	.degis {
+background-color: transparent;
+}
+
+.degis:active {
+background-color: rgb(0,52,61);
+}
+
+.degis2 {
+background-color: gray;
+}
+
+.degis2:active {
+background-color: rgb(0,52,61);
+}
+</style>
+<style type="text/css">
+
+input[type=checkbox] {
+display:none;
+}
+
+input[type=checkbox].belediyesec  + label 
+{
+list-style:none; margin:1% 0 2% 4%; padding:5.5% 0; width:28%;height:auto; float:left; display:block; text-align:center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-webkit-border-radius:110px;-moz-border-radius:110px;border-radius:110px;
+background-color: gray;
+}
+
+input[type=checkbox]:checked.belediyesec + label 
+{
+list-style:none; margin:1% 0 2% 4%; padding:5.5% 0; width:28%;height:auto; float:left; display:block; text-align:center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-webkit-border-radius:110px;-moz-border-radius:110px;border-radius:110px;
+background-color: rgb(0,52,61);
+}
+
+
+</style>
+
+</head>
+<body>
+  <div id="header" >
+  <a href="start-index.html"><div style="float:right; width:77px" class="gomenu degis"><img src="images/icons/forward.png"/></div></a>
+  <div class="pagination" style="visibility:hidden;"></div>
+  </div>
+  
+  <div class="swiper-container swiper-parent">
+    <div class="swiper-wrapper">
+
+
+
+<!--Splash Page-->
+      <div class="swiper-slide sliderbg_splash">
+      <div class="swiper-container swiper-nestedsplash">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="splash_container">	
+                                            <div class="logo">
+                                            <strong><img src="images/icons/elet.png" border="0" /></strong> <br />
+                                            <span>Etkinlik Rehberiniz</span>
+                                            </div>
+                                            
+                                            <ul class="splash_social">
+                                            <li><a href="#"><img src="images/icons_contour/social/facebook.png" alt="" title="" border="0" /></a></li>
+                                            <li><a href="#"><img src="images/icons_contour/social/twitter.png" alt="" title="" border="0" /></a></li>
+                                            <li><a href="#"><img src="images/icons_contour/social/google.png" alt="" title="" border="0" /></a></li>
+                                            <li><a href="#"><img src="images/icons_contour/contact.png" alt="" title="" border="0" /></a></li>
+                                            </ul>
+    
+                                            <div class="slide-to-navigate">
+                                            <a href="#" onclick="swiperParent.swipeTo(1);"><img src="colors/splash/images/slide-to-navigate.png" alt="" title="" border="0" /></a> <br />
+                                            gezinmek için sadece kaydırın
+                                            </div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbarsplash"></div>
+     </div>
+     </div>
+    
+<!--Menu page-->
+      <div class="swiper-slide sliderbg">
+          <div class="swiper-container swiper-nested">
+                   <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                                  <div class="slide-inner">
+     
+                                        <div class="menu">
+										<div style="font-size:17px; color:white; text-align:center; margin:0 0 0 10px; top: 50px;">Takip Edeceğiniz Belediyeleri Seçebilirsiniz</div>
+                                        <ul>
+	
+                                        <input class="belediyesec" id="thinga" name="thinga" type="checkbox" value="valuable" /><label for="thinga"><li><img src="images/icons/logo.png"/><span>A Belediyesi</span></li></label>
+                                        <input class="belediyesec" id="thingb" name="thingb" type="checkbox" value="valuable" /><label for="thingb"><li><img src="images/icons/logo.png"/><span>B Belediyesi</span></li></label>
+                                        <input class="belediyesec" id="thingc" name="thingc" type="checkbox" value="valuable" /><label for="thingc"><li><img src="images/icons/logo.png"/><span>C Belediyesi</span></li></label>
+                                        <input class="belediyesec" id="thingd" name="thingd" type="checkbox" value="valuable" /><label for="thingd"><li><img src="images/icons/logo.png"/><span>D Belediyesi</span></li></label>
+                                        <input class="belediyesec" id="thinge" name="thinge" type="checkbox" value="valuable" /><label for="thinge"><li><img src="images/icons/logo.png"/><span>E Belediyesi</span></li></label>
+                                        <input class="belediyesec" id="thingf" name="thingf" type="checkbox" value="valuable" /><label for="thingf"><li><img src="images/icons/logo.png"/><span>F Belediyesi</span></li></label>
+                                        <input class="belediyesec" id="thingg" name="thingg" type="checkbox" value="valuable" /><label for="thingg"><li><img src="images/icons/logo.png"/><span>G Belediyesi</span></li></label>
+                                        <input class="belediyesec" id="thingh" name="thingh" type="checkbox" value="valuable" /><label for="thingh"><li><img src="images/icons/logo.png"/><span>H Belediyesi</span></li></label>
+                                        <input class="belediyesec" id="thingi" name="thingi" type="checkbox" value="valuable" /><label for="thingi"><li><img src="images/icons/logo.png"/><span>I Belediyesi</span></li></label>
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                        </div>
+                               
+                                 </div>
+                         </div>
+                   </div>
+                  <div class="swiper-scrollbar"></div>
+          </div> 
+      </div>
+      
+
+       
+     <!--End of pages--> 
+
+    </div>
+
+  </div>
+<script type="text/javascript" src="js/jquery.swipebox.js"></script>
+<script type="text/javascript" src="js/idangerous.swiper-2.1.min.js"></script>
+<script type="text/javascript" src="js/idangerous.swiper.scrollbar-2.1.js"></script>
+<script type="text/javascript" src="js/jquery.tabify.js"></script>
+<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="js/splash.js"></script>
+<script type="text/javascript" src="js/load.js"></script>
+
+</body>
+</html>
